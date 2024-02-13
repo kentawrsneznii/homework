@@ -1,0 +1,51 @@
+        /* Селектор за назвою елемента */
+        h3 {
+            color: green;
+        }
+
+        /* Селектор за назвою елемента */
+        h4 {
+            color: red;
+        }
+
+
+        /* Селектор за ID */
+        #element-with-id {
+            color: blue;
+        }
+
+        /* Селектор за ID */
+        #element-with-id1 {
+            color: goldenrod;
+        }
+
+        /* Селектор за класом */
+        .element-with-class {
+            color: sandybrown;
+        }
+
+        /* Селектор за класом */
+        .element-with-class1 {
+            color: hotpink;
+        }
+
+        /* Селектор за кількома класами */
+        .class1.class2 {
+            color: aquamarine;
+        }
+
+        /* Селектор за кількома класами */
+        .class3.class4 {
+            color: orange;
+        }
+
+
+        /* Селектор за вкладеністю */
+        div p {
+            color: purple;
+        }
+
+        /* Селектор за вкладеністю */
+        div div p {
+            color: skyblue;
+        }
