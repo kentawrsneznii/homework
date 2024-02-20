@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 700px;
+    padding: 79px 0 141px 0;
+    background-color: #eeeff1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 42px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+header .header_link {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000;
+}
+
+header #homepage {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #34547a;
+}
+
+h1 {
+    width: 541px;
+    height: 45px;
+    flex-grow: 0;
+    margin: 151px 105px 60px 0;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.64;
+    text-align: left;
+    color: #000;
+}
+
+.main .main_text {
+    margin: 0 105px 0 1px;
+    font-family: Roboto;
+    font-size: 16px;;
+    line-height: 1.64;
+    text-align: left;
+    color: #727272;
+}
+
+.main .main_btn {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    line-height: 1.64;
+    color: #fff;
+    width: 225px;
+    height: 65px;
+    margin: 65px 421px 0 0;
+    padding: 19px 41px 20px;
+    background-color: #34547a;
+}
+
+.about {
+height: 359px;
+background-color: #f9f9f9;
+padding: 112px 0 100px 0;
+}
+
+.about .about_header {
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        color: #000;
+        margin-bottom: 50px;
+}
+
+.about .about_text {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.64;
+    text-align: center;
+    color: #727272;
+}
+
+.projects {
+        height: 250px;
+        padding: 100px 0 100px 0;
+        background-color: #34547a;
+}
+
+.projects .numbers_projects {
+    margin: 0 45px 0 0;
+}
+
+
+.how {
+    height: 1004px;
+    padding: 100px 0 100px 0;
+    background-color: #eeeff1;
+}
+
+.how .how_header {
+font-family: 'Roboto';
+font-size: 32px;
+font-weight: 500;
+font-size: 36px;
+color: #000;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.how .how_text {
+    margin-bottom: 57px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.64;
+    text-align: center;
+    color: #727272;
+}
+
+.footer {
+    padding: 50px 0 50px 0;
+    height: 151px;
+    background-color: #34547a;
+}
+
+.footer .Author {
+    margin: 0 0 20px 0;
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 500;
+    text-align: left;
+    color: #fff;
+}
+
+.footer .footer_copyright {
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 15px;
+line-height: 1.64;
+text-align: left;
+margin: 20px 0 0;
+color: #fff;
+}
+
+
+
