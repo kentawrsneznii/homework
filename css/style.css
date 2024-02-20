@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+    height: 500px;
+}
+
+.card {
+    display:inline-block;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
+    margin: 20px 20px 20px 20px;
+    vertical-align: middle;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .cards_img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.card .cards_title {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card .cards_text {
+    text-align: center;
+}
